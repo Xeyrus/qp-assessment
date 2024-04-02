@@ -1,0 +1,22 @@
+Problem Statement:
+Design a Grocery Booking API:
+Roles:
+- Admin
+- User
+
+
+
+Design API endpoints
+1. Admin Responsibilities:
+   - Add new grocery items to the system        			---> Post by admin
+   - View existing grocery items 					---> Get by admin
+   - Remove grocery items from the system 				---> Delete by admin
+   - Update details (e.g., name, price) of existing grocery items  	---> Put by admin
+   - Manage inventory levels of grocery items 				---> Put by admin
+2. User Responsibilities:
+   - View the list of available grocery items  				---> Get by user
+   - Ability to book multiple grocery items in a single order		---> Put by user
+Advanced Challenge:
+- Containerize the application using Docker for ease of deployment and scaling.
+Database:
+- Use any relational database of your choice.				---> MySQL
